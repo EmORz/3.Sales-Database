@@ -1,0 +1,16 @@
+C:\Users\User\source\repos\SalesDatabase\P03_SalesDatabase\bin\Debug\netcoreapp2.0\P03_SalesDatabase.deps.json
+C:\Users\User\source\repos\SalesDatabase\P03_SalesDatabase\bin\Debug\netcoreapp2.0\P03_SalesDatabase.runtimeconfig.json
+C:\Users\User\source\repos\SalesDatabase\P03_SalesDatabase\bin\Debug\netcoreapp2.0\P03_SalesDatabase.runtimeconfig.dev.json
+C:\Users\User\source\repos\SalesDatabase\P03_SalesDatabase\bin\Debug\netcoreapp2.0\P03_SalesDatabase.dll
+C:\Users\User\source\repos\SalesDatabase\P03_SalesDatabase\bin\Debug\netcoreapp2.0\P03_SalesDatabase.pdb
+C:\Users\User\source\repos\SalesDatabase\P03_SalesDatabase\bin\Debug\netcoreapp2.0\P03_SalesDatabase.Data.dll
+C:\Users\User\source\repos\SalesDatabase\P03_SalesDatabase\bin\Debug\netcoreapp2.0\P03_SalesDatabase.Data.Models.dll
+C:\Users\User\source\repos\SalesDatabase\P03_SalesDatabase\bin\Debug\netcoreapp2.0\P03_SalesDatabase.Data.pdb
+C:\Users\User\source\repos\SalesDatabase\P03_SalesDatabase\bin\Debug\netcoreapp2.0\P03_SalesDatabase.Data.Models.pdb
+C:\Users\User\source\repos\SalesDatabase\P03_SalesDatabase\obj\Debug\netcoreapp2.0\P03_SalesDatabase.csprojAssemblyReference.cache
+C:\Users\User\source\repos\SalesDatabase\P03_SalesDatabase\obj\Debug\netcoreapp2.0\P03_SalesDatabase.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\SalesDatabase\P03_SalesDatabase\obj\Debug\netcoreapp2.0\P03_SalesDatabase.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\SalesDatabase\P03_SalesDatabase\obj\Debug\netcoreapp2.0\P03_SalesDatabase.AssemblyInfo.cs
+C:\Users\User\source\repos\SalesDatabase\P03_SalesDatabase\obj\Debug\netcoreapp2.0\P03_SalesDatabase.csproj.CopyComplete
+C:\Users\User\source\repos\SalesDatabase\P03_SalesDatabase\obj\Debug\netcoreapp2.0\P03_SalesDatabase.dll
+C:\Users\User\source\repos\SalesDatabase\P03_SalesDatabase\obj\Debug\netcoreapp2.0\P03_SalesDatabase.pdb
