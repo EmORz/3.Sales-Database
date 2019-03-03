@@ -2,11 +2,11 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.0": {
-      "Microsoft.EntityFrameworkCore/2.2.2": {
+      "Microsoft.EntityFrameworkCore/2.2.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Abstractions": "2.2.2",
-          "Microsoft.EntityFrameworkCore.Analyzers": "2.2.2",
+          "Microsoft.EntityFrameworkCore.Abstractions": "2.2.0",
+          "Microsoft.EntityFrameworkCore.Analyzers": "2.2.0",
           "Microsoft.Extensions.Caching.Memory": "2.2.0",
           "Microsoft.Extensions.DependencyInjection": "2.2.0",
           "Microsoft.Extensions.Logging": "2.2.0",
@@ -23,7 +23,7 @@
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Abstractions/2.2.2": {
+      "Microsoft.EntityFrameworkCore.Abstractions/2.2.0": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {}
@@ -32,13 +32,13 @@
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Analyzers/2.2.2": {
+      "Microsoft.EntityFrameworkCore.Analyzers/2.2.0": {
         "type": "package"
       },
-      "Microsoft.EntityFrameworkCore.Relational/2.2.2": {
+      "Microsoft.EntityFrameworkCore.Relational/2.2.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "2.2.2"
+          "Microsoft.EntityFrameworkCore": "2.2.0"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Relational.dll": {}
@@ -47,10 +47,10 @@
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Relational.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.SqlServer/2.2.2": {
+      "Microsoft.EntityFrameworkCore.SqlServer/2.2.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Relational": "2.2.2",
+          "Microsoft.EntityFrameworkCore.Relational": "2.2.0",
           "System.Data.SqlClient": "4.6.0"
         },
         "compile": {
@@ -915,8 +915,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.0",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "2.2.2",
-          "Microsoft.EntityFrameworkCore.SqlServer": "2.2.2",
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.2.0",
           "P03_SalesDatabase.Data.Models": "1.0.0"
         },
         "compile": {
@@ -939,67 +938,67 @@
     }
   },
   "libraries": {
-    "Microsoft.EntityFrameworkCore/2.2.2": {
-      "sha512": "WBQhms1wB9V43TRXB/V8qUw8j8dEI2Ew5LZvqkBYct6khD9QpIuVpzUtUwJATOFC8WKaGgowSA0E0L7pNoLQfw==",
+    "Microsoft.EntityFrameworkCore/2.2.0": {
+      "sha512": "9XzZquAR+GM985YWDRFrFlXHPgCa250LVrxmkhbAhVkDCnuc8OUjyj0K2g9gN5Q79ILJkAhDfmBxBms+Mxpv0g==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore/2.2.2",
+      "path": "microsoft.entityframeworkcore/2.2.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.dll",
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.xml",
-        "microsoft.entityframeworkcore.2.2.2.nupkg.sha512",
+        "microsoft.entityframeworkcore.2.2.0.nupkg.sha512",
         "microsoft.entityframeworkcore.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Abstractions/2.2.2": {
-      "sha512": "qTR9OSjKEoxxoZ/G/XbSPZsdxueiWUHgWU+XrOfQAm4+dcY0XEenR4BXT5gQeVGzPrLsQb3loQhgjmKKLdI5LA==",
+    "Microsoft.EntityFrameworkCore.Abstractions/2.2.0": {
+      "sha512": "kYqXcp+NYZ+DxEuinyteBLtLf+LsDDnvNb0ljfB3aN5e8rzikS0FMmJDWWg6nhZLhlFnXCQ5KrsyriGspSjfvA==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.abstractions/2.2.2",
+      "path": "microsoft.entityframeworkcore.abstractions/2.2.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Abstractions.xml",
-        "microsoft.entityframeworkcore.abstractions.2.2.2.nupkg.sha512",
+        "microsoft.entityframeworkcore.abstractions.2.2.0.nupkg.sha512",
         "microsoft.entityframeworkcore.abstractions.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Analyzers/2.2.2": {
-      "sha512": "t+9kW6MwDDrGPPx15c2AIE2f6DM9nbGcHThagg9rcUZz6shmC8LS1Qhd5TSocKHmJafa+hHhBfDNGPyDDeNfHQ==",
+    "Microsoft.EntityFrameworkCore.Analyzers/2.2.0": {
+      "sha512": "8/LS/OW/KWU/TcLoaJbw/wWrqV4BD6bpZA94Qh/N084MyEzucoakL1ViNoGjCHk9c6MJptFBDBWLTXvdhJqP/w==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.analyzers/2.2.2",
+      "path": "microsoft.entityframeworkcore.analyzers/2.2.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "analyzers/dotnet/cs/Microsoft.EntityFrameworkCore.Analyzers.dll",
-        "microsoft.entityframeworkcore.analyzers.2.2.2.nupkg.sha512",
+        "microsoft.entityframeworkcore.analyzers.2.2.0.nupkg.sha512",
         "microsoft.entityframeworkcore.analyzers.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Relational/2.2.2": {
-      "sha512": "k0euxFNySwWj6+gdBrQGDRqZTrI685f/0btdMVJxun42fYozYmShxrSQPoT7LfGK6Z80m1R9obWwFWOSHNL9gQ==",
+    "Microsoft.EntityFrameworkCore.Relational/2.2.0": {
+      "sha512": "gfozvhextM1sJkFQ3ME3s7CdC0bKACtv1KyN6kYvBXKCmdmgqkNOqZR/F70sjEpwqZbWwdVHJzPWMADxvcDR1w==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.relational/2.2.2",
+      "path": "microsoft.entityframeworkcore.relational/2.2.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Relational.dll",
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Relational.xml",
-        "microsoft.entityframeworkcore.relational.2.2.2.nupkg.sha512",
+        "microsoft.entityframeworkcore.relational.2.2.0.nupkg.sha512",
         "microsoft.entityframeworkcore.relational.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.SqlServer/2.2.2": {
-      "sha512": "6KykeLQIsxDPIXwZxVT7IfldHQtH0NYbRTpzJ/8LxGzquc3RXEeUQPNGLZd3qHWQqD7TZaSX9xGlPbsEnHXWyw==",
+    "Microsoft.EntityFrameworkCore.SqlServer/2.2.0": {
+      "sha512": "MhJJXewP8zZVK0lX5MGwR+ZPzfONUvpb9FDKuB2DheJLlqiXY22BR+Ncobou1bf1JsP3hZYb9J0GCwNMFc8kpw==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.sqlserver/2.2.2",
+      "path": "microsoft.entityframeworkcore.sqlserver/2.2.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.SqlServer.dll",
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.SqlServer.xml",
-        "microsoft.entityframeworkcore.sqlserver.2.2.2.nupkg.sha512",
+        "microsoft.entityframeworkcore.sqlserver.2.2.0.nupkg.sha512",
         "microsoft.entityframeworkcore.sqlserver.nuspec"
       ]
     },
@@ -3526,11 +3525,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\source\\repos\\SalesDatabase\\P03_SalesDatabase\\P03_SalesDatabase.csproj",
+      "projectUniqueName": "C:\\Users\\User\\source\\repos\\SalesDatabase\\3.Sales-Database\\P03_SalesDatabase\\P03_SalesDatabase.csproj",
       "projectName": "P03_SalesDatabase",
-      "projectPath": "C:\\Users\\User\\source\\repos\\SalesDatabase\\P03_SalesDatabase\\P03_SalesDatabase.csproj",
+      "projectPath": "C:\\Users\\User\\source\\repos\\SalesDatabase\\3.Sales-Database\\P03_SalesDatabase\\P03_SalesDatabase.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\source\\repos\\SalesDatabase\\P03_SalesDatabase\\obj\\",
+      "outputPath": "C:\\Users\\User\\source\\repos\\SalesDatabase\\3.Sales-Database\\P03_SalesDatabase\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3549,8 +3548,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\User\\source\\repos\\SalesDatabase\\P03_SalesDatabase.Data\\P03_SalesDatabase.Data.csproj": {
-              "projectPath": "C:\\Users\\User\\source\\repos\\SalesDatabase\\P03_SalesDatabase.Data\\P03_SalesDatabase.Data.csproj"
+            "C:\\Users\\User\\source\\repos\\SalesDatabase\\3.Sales-Database\\P03_SalesDatabase.Data\\P03_SalesDatabase.Data.csproj": {
+              "projectPath": "C:\\Users\\User\\source\\repos\\SalesDatabase\\3.Sales-Database\\P03_SalesDatabase.Data\\P03_SalesDatabase.Data.csproj"
             }
           }
         }
