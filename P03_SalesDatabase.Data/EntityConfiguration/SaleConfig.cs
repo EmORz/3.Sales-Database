@@ -24,6 +24,7 @@ namespace P03_SalesDatabase.Data.EntityConfiguration
                 .HasForeignKey(e => e.CustomerId);
 
             builder.Property(x => x.Date)
+                .IsRequired()
                 .HasDefaultValueSql("GETDATE()");
 
         }

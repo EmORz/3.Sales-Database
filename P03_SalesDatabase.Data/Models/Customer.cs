@@ -10,6 +10,11 @@ namespace P03_SalesDatabase.Data.Models
     //	CreditCardNumber(string)
     //	Sales
 
+        public Customer()
+        {
+            this.Sales = new HashSet<Sale>();
+        }
+
         public int CustomerId { get; set; }
 
         public string Name { get; set; }

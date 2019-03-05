@@ -9,7 +9,7 @@ namespace P03_SalesDatabase.Data.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "Customer",
+                name: "Customers",
                 columns: table => new
                 {
                     CustomerId = table.Column<int>(nullable: false)
@@ -31,7 +31,7 @@ namespace P03_SalesDatabase.Data.Migrations
                         .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
                     Name = table.Column<string>(maxLength: 50, nullable: true),
                     Description = table.Column<string>(maxLength: 250, nullable: true, defaultValue: "No description"),
-                    Quantity = table.Column<int>(nullable: false),
+                    Quantity = table.Column<double>(nullable: false),
                     Price = table.Column<decimal>(nullable: false)
                 },
                 constraints: table =>

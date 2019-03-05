@@ -10,14 +10,14 @@ using P03_SalesDatabase.Data;
 namespace P03_SalesDatabase.Data.Migrations
 {
     [DbContext(typeof(SalesContext))]
-    [Migration("20190303150225_SalesAddDateDefault")]
-    partial class SalesAddDateDefault
+    [Migration("20190304144500_ProductsAddColumnDescription")]
+    partial class ProductsAddColumnDescription
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "2.2.2-servicing-10034")
+                .HasAnnotation("ProductVersion", "2.2.0-rtm-35687")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
@@ -58,7 +58,7 @@ namespace P03_SalesDatabase.Data.Migrations
 
                     b.Property<decimal>("Price");
 
-                    b.Property<int>("Quantity");
+                    b.Property<double>("Quantity");
 
                     b.HasKey("ProductId");
 
@@ -73,9 +73,7 @@ namespace P03_SalesDatabase.Data.Migrations
 
                     b.Property<int>("CustomerId");
 
-                    b.Property<DateTime>("Date")
-                        .ValueGeneratedOnAdd()
-                        .HasDefaultValueSql("GETDATE()");
+                    b.Property<DateTime>("Date");
 
                     b.Property<int>("ProductId");
 

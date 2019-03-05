@@ -9,6 +9,11 @@ namespace P03_SalesDatabase.Data.Models
     //	Name(up to 80 characters, unicode)
     //	Sales
 
+        public Store()
+        {
+            this.Sales = new HashSet<Sale>();
+        }
+
         public int StoreId { get; set; }
 
         public string Name { get; set; }

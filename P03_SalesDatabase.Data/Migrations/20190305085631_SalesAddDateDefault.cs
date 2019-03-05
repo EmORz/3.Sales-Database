@@ -13,6 +13,17 @@ namespace P03_SalesDatabase.Data.Migrations
                 nullable: false,
                 defaultValueSql: "GETDATE()",
                 oldClrType: typeof(DateTime));
+
+            migrationBuilder.AlterColumn<string>(
+                name: "Description",
+                table: "Products",
+                maxLength: 250,
+                nullable: false,
+                defaultValue: "No description",
+                oldClrType: typeof(string),
+                oldMaxLength: 250,
+                oldNullable: true,
+                oldDefaultValue: "No description");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
@@ -23,6 +34,16 @@ namespace P03_SalesDatabase.Data.Migrations
                 nullable: false,
                 oldClrType: typeof(DateTime),
                 oldDefaultValueSql: "GETDATE()");
+
+            migrationBuilder.AlterColumn<string>(
+                name: "Description",
+                table: "Products",
+                maxLength: 250,
+                nullable: true,
+                defaultValue: "No description",
+                oldClrType: typeof(string),
+                oldMaxLength: 250,
+                oldDefaultValue: "No description");
         }
     }
 }
